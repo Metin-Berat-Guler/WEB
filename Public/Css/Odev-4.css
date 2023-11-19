@@ -1,0 +1,212 @@
+body{background-color: #edeef0;}
+ul.menu
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none ;
+  background-color: #333;
+  height: 50px;
+}
+ul.menu>li
+{
+  float: left;
+  margin-right: 5px ;
+  
+}
+ul.menu>li:hover
+{
+ background-color: red;
+}
+ul.menu>li a 
+{
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 0 15px;
+  line-height: 50px;
+}
+ul.menu>div.search-main
+{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 5px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  
+
+  
+}
+ul.menu>div.search-main>input.tbox-search
+{
+  
+  float: left;
+  background: none;
+  border:none;
+  outline: none;
+  font-size: 16px;
+  width: 0;
+  transition: 1s;
+}
+ul.menu>div.search-main>a.btn-search
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 16px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+ul.menu>div.search-main:hover > .tbox-search
+{
+width: 100px;
+background-color: whitesmoke;
+}
+#d1
+{
+    display: inline-block;
+    float: left;
+    background-color: green;
+    width: 800px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: green;
+}
+#d2
+{
+    display: inline-block;
+    float: left;
+    background-color: green;
+    width: 380px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: green;
+}
+#d3
+{
+    display: inline-block;
+    float: left;
+    background-color: green;
+    width: 380px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: green;
+}
+#d4 
+{
+    display: inline-block;
+    float: left;
+    background-color: green;
+    width: 1190px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: green;
+}
+#d5
+{
+    display: inline-block;
+    float: left;
+    background-color: green;
+    width: 380px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: green;
+}
+#d6
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 380px;
+  height: 160px;
+  margin-top: 30px;
+  margin-left: 10px; 
+  color: green;
+}
+#d7
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 800px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: green;
+}
+#d8
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 380px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: green;
+}
+#d9
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 380px;
+  height: 210px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: green;
+  position: relative;
+  bottom: 240px;
+}
+#d10
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 380px;
+  height: 80px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: green;
+  position: relative;
+  right: 390px;
+}
+#d11
+{
+  display: inline-block;
+  float: left;
+  background-color: green;
+  width: 800px;
+  height: 80px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: green;
+  position: relative;
+  right: 390px;
+}
+#d12
+{
+  display: inline-block;
+  float: right;
+  background-color: green;
+  width: 380px;
+  height: 80px;
+  margin-top: 30px;
+  color: green;
+  position: relative;
+  bottom: 110px;
+  right: 272px;
+
+}

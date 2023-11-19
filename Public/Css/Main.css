@@ -1,0 +1,197 @@
+
+body{
+  background-color: #edeef0;
+  width: auto;
+  height: auto;
+  
+}
+
+ul.menu
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none ;
+  background-color: #333;
+  height: 50px;
+}
+ul.menu>li
+{
+  float: left;
+  margin-right: 5px ;
+  
+}
+ul.menu>li:hover
+{
+ background-color: red;
+}
+ul.menu>li a 
+{
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 0 15px;
+  line-height: 50px;
+}
+ul.menu>div.search-main
+{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 5px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  
+
+  
+}
+ul.menu>div.search-main>input.tbox-search
+{
+  
+  float: left;
+  background: none;
+  border:none;
+  outline: none;
+  font-size: 16px;
+  width: 0;
+  transition: 1s;
+}
+ul.menu>div.search-main>a.btn-search
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 16px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+ul.menu>div.search-main:hover > .tbox-search
+{
+width: 100px;
+background-color: whitesmoke;
+}
+
+  
+
+div.details-1
+{
+ display: inline-block;
+ position: relative;
+ 
+ 
+ width: 500px;
+ height: auto;
+ margin-top: 50px;
+ margin-left: 20px;
+ background-color: #fff;
+ 
+}
+div.details-1>:first-child
+{
+  
+  margin-left: 70px;
+}
+div.details-1>img:nth-child(3)
+{
+  margin-left: 165px;
+  border-radius: 100px ;
+  
+}
+  div.details-1>h3
+  {
+   display: inline;
+   margin-left: 165px;
+  }
+  div.details-1>p
+  {
+    display: inline;
+    margin-left: 185px;
+  }
+  div.details-2
+  {
+    display: inline-block;
+    background-color: #fff;
+    width: 950px;
+   
+    
+    
+    
+    
+
+  }
+  div.details-2>center>h3
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    
+  }
+  div.details-2>p
+  {
+    margin-left: 15px;
+  }
+  
+
+
+
+
+
+
+
+  @media only screen and (min-width: 150px) and (max-width: 600px)
+  {
+   body
+   {
+    width: auto;
+    height: auto;
+   }
+  
+  div.details-1
+  {
+    display: block;
+    width: 80%;
+    height: 300px;
+  }
+  
+  div.details-1>:first-child
+  {
+    width: 50%;
+    height: 50%;
+    
+    margin-left: 25%;
+  }
+  
+  div.details-1>img:nth-child(3)
+  {
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    margin-left: 36.5%;
+  }
+  div.details-1>h3
+  {
+    font-size: 14px;
+    margin-left: 33%;
+  }
+  div.details-1>p
+  {
+    font-size: 12px;
+    margin-left: 37%;
+  }
+   div.details-2
+   {
+    display: block;
+    position:absolute ;
+    float: left;
+    margin-left: 5%;
+    
+   }
+ 
+  
+  
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Bilgiler</title>
+    <link rel="shortcut icon" href="/Public/Images/title1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Public/Css/Odev-5.css">
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="/Public/Html/Main.html">Anasayfa</a>
+        </li>
+        <li><a href="/Public/Html/Odevler.html">Ödevler</a>
+        </li>
+        <div class="search-main">
+            <input type="text" class="tbox-search">
+            <a class="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </ul>
+    <center>
+        <h3>Authorization nedir ?</h3>
+    </center>
+    <p>Authorization, bir kullanıcının belirli bir kaynağa (sistem, dosya, klasör, web sayfası vb.) erişebilmesi için
+        gerekli izinlerin tanımlandığı süreçtir.
+        Kullanıcının kimliği doğrulandıktan sonra, authorization adı verilen bu süreçte,
+        kullanıcının erişebileceği kaynaklar ve bu kaynaklarda hangi işlemleri yapabileceği belirlenir.
+        Bu işlem sonucunda, kullanıcının erişebileceği kaynaklar ve bu kaynaklarda yapabileceği işlemler belirlenir.
+        Bu sayede, kaynakların güvenliği ve gizliliği korunmuş olur.</p>
+    <center>
+        <h3>Microservice nedir ?</h3>
+    </center>
+    <p>Microservices yani mikroservis mimarisi farklı iş yeteneklerinin birbirinden bağımsız bir şekilde
+        yapılandırıldığı mimari bir modeldir. Bu mimaride büyük sistemler her biri farklı bir işten sorumlu ve
+        birbirinden bağımsız daha küçük servislere ayrılır. Sahne arkasında tüm bu servisler microservice (mikroservis)
+        olarak adlandırılır.
+
+        Mikroservis kısaca bağımsız çalıştırılabilen, her birinin ayrı ve belirli bir sorumluluğu olan boyutu küçük
+        servis demektir.</p>
+    <center>
+        <h3>XHR nedir ?</h3>
+    </center>
+    <p>XMLHttpRequest (XHR), aslında JavaScript ile sunulmuş bir UPA'dır.
+        Web sitesinin eş zamanlı olarak arka planda çalışan olaylarını takip eder.
+        XML CSS ve JavaScript ile sonucun anında görülmesini sağlar.
+        XMLHttpRequest, istemci tarafında çalışır.
+        Birden fazla asenkron Web sayfasına postback ve yenileme yapmadan istekte bulunabilir ve gelen cevapları istekte
+        bulunanlara iletir.</p>
+    <center>
+        <h3>session nedir ?</h3>
+    </center>
+    <p>Session(oturum)larda cookieler gibi kullanıcı bilgilerinin tutuldugu bölümlerdir.
+        Sessionların cookielerden en önemli farkları sessionlar kullanıcının bilgisayarında değil sunucuda tutulurlar.
+        Böylece daha güvenlidirler.
+        Sessionlar belli bir sürede aktif olarak kalamazlar. Kullanıcı sayfayı kapattığı anda session sona erer.
+        Ya da programcının bir çıkış bölümü yazması gerekmektedir.</p>
+    <center>
+        <h3>status code</h3>
+    </center>
+    <p><pre>HTTP durum kodları (status codes), istemci yani web tarayıcı ile sunucu arasındaki iletişim sürecinde neler
+        olduğunu açıklayan, 3 haneli bir sayıdır.
+        Bu kodların genellikle hata ile ilgili olduğu düşünülür.
+        Fakat kodlar sunucu ve istemci arasındaki aktarım işleminin durumunu bildirir.
+        Sadece hatalı olan işlemlerin değil, başarılı işlemlerin de HTTP durum kodu vardır.
+
+
+
+        1xx: Kullanıcı yani tarayıcının gönderdiği isteğin sunucuya ulaştığını ve istek ile ilgili işlemin başlamış
+        olduğunu bildiren HTTP durum kodları sınıfıdır.
+        Bu sınıftaki kodlar şunlardır:
+        100 - Devam
+        101 - Protokol değiştirme
+        102 - İşlem
+
+        2xx: İstemciden gelen talebin sunucuya ulaştığını, sunucu tarafından anlaşıldığını ve başarılı olduğunu ifade
+        eden kodları içeren sınıftır. Bu sınıftaki kodlar şöyledir:
+        200 - Başarılı/Tamam
+        201 - Oluşturuldu
+        202 - Kabul edildi/Onaylandı
+        203 - Yetersiz bilgi
+        204 - İçerik yok
+        205 - İçeriği baştan al
+        206 - Kısmi içerik
+        207 - Çoklu statü
+        210 - Farklı içerik
+
+        3xx: Bir yönlendirme söz konusu olduğunda gösterilen ve ulaşılmak istenen bilginin, başka bir kaynağa
+        taşındığını bildiren HTTP durum kodlarından oluşan sınıftır. Bu sınıftaki kodlar şöyledir:
+        300 - Çoklu seçenek
+        301 - Kalıcı yönlendirme
+        302 - Geçici yönlendirme
+        303 - Diğerlerine bak
+        304 - Güncellenmemiş/Değiştirilmemiş
+        305 - Proxy kullan
+        307 - Geçici olarak yeniden yönlendirme
+
+        4xx: arayıcı tarafından gönderilen isteğe konu olan web sitesine ya da sayfaya ulaşılamadığında gösterilen ve
+        isteğin yerine getirilemediğini ifade eden HTTP durum kodları, bu sınıfa dâhildir. Bu sınıftaki kodlar şöyledir:
+        400 - Kötü/Hatalı istek
+        401 - Yetkisi
+        402 - Ödeme gerekli
+        403 - Yasaklandı/Erişim izni sorunu
+        404 - Bulunamadı
+        405 - İzin verilmeyen yöntem
+        406 - Kabul edilemez
+        407 - Proxy üzerinden yetkilendirme gerekli
+        408 - Zaman aşımı
+        409 - Çakışma
+        410 - Kaynak artık yok/Kalıcı olarak bulunmuyor
+        411 - Uzunluk (içerik boyutu) gerekli
+        412 - Ön koşul başarısız
+        413 - Girilen veri çok fazla
+        414 - İstek URL’i çok büyük
+        415 - Desteklenmeyen medya tipi
+        416 - Kaynak kısmi geçersiz
+        417 - İstek başarısız
+        422 - İşlenemeyen varlık
+        423 - Kilitli
+        424 - Kaynak işleme alınamadı
+        425 - Çok erken
+        426 - Yükseltme gerekli
+        428 - Ön koşul gerekli
+        429 - Çok fazla istek
+        451 - Yasal nedenlerle kullanılamıyor
+
+        5xx: Kullanıcı isteğinin sunucuya başarılı bir şekilde ulaşması fakat sunucu kaynaklı sorunlar nedeniyle isteğin
+        yerine getirilememesi hâlinde gösterilen kodların sınıfıdır. 5xx HTTP durum kodları şunlardır:
+        500 - Sunucu hatası
+        501 - İstek uygulanmadı
+        502 - Kötü ağ geçidi
+        503 - Sunucu kullanılamıyor
+        504 - Ağ geçidi zaman aşımı
+        505 - HTTP sürümü desteklenmiyor
+        507 - Yetersiz depolama
+        509 - Bant genişliği sınırı aşıldı
+        511 - Ağ kimlik doğrulaması gerekli
+        521 - Web sunucusu kapalı</pre></p>
+        <center>
+            <h3>Önerilen çerezler nedir ?</h3>
+        </center>
+        <p>İnternette gezinirken ziyaret ettiğiniz web sayfaları, bilgisayarınıza ve telefonunuza küçük bilgi dosyaları kaydeder.
+            Bu dosyalar telefon veya bilgisayarınızın hafızasında saklanır.
+            Daha sonra aynı siteleri ziyaret ettiğinizde bu kayıtlı bilgi dosyaları sayesinde siteler sizi tanıyabilir.
+            Çerezlerin işlevleri genelde bu yöndedir.
+            Bilgileriniz bu dosyalara yazıldığından dolayı tekrar aynı web sayfalarını ziyaret ettiğinizde bilgilerinizi yeniden girmeye gerek duymazsınız.
+            şte bu kayıtlı bilgi dosyalarına cookie denir. Türkçede karşılığı ise çerez olarak adlandırılır.
+            Çerezlerin işlevleri, kullanıcıyı web sitesine hatırlatmaktır.
+            Çerezlerin işlevleri doğru kullanıldığında kullanıcı deneyimi kaliteli hale gelir.</p>
+</body>
+
+</html>
