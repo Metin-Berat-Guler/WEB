@@ -1,4 +1,7 @@
-body{background-color: #edeef0;}
+body
+{background-color: #edeef0;
+  margin: 0%;
+}
 ul.menu
 {
   padding: 0;

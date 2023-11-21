@@ -1,4 +1,7 @@
-body{background-color: #edeef0;}
+body
+{background-color: #edeef0;
+  margin: 0%;
+}
 ul.menu
 {
   padding: 0;
@@ -7,6 +10,7 @@ ul.menu
   list-style: none ;
   background-color: #333;
   height: 50px;
+  margin-bottom: 50px;
 }
 ul.menu>li
 {
@@ -69,32 +73,9 @@ ul.menu>div.search-main:hover > .tbox-search
 width: 100px;
 background-color: whitesmoke;
 }
-div.main
+pre>a
 {
-   
-    margin-top: 50px;
-    ;
-}
-div.main>div.line1 :nth-child(1)
-{
-    margin-left: 50px;
-}
-div.main>div.line1 :nth-child(2)
-{
- margin-left: 15px;
-}
-div.main>div.line1 :nth-child(3)
-{
-    margin-left: 15px;
-}
-div.main>div.line1 :nth-child(4)
-{
-    margin-left: 15px;
-}
-div.main>div.line1 :nth-child(5)
-{
-  margin-left: 15px;
-  float: left;
-  text-decoration: none; 
-  color: #333;
+  text-decoration: none;
+  color: blue;
+  
 }

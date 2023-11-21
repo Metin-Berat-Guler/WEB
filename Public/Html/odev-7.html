@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meter rengi kullanıcı tarafından değiştirme</title>
+    <link rel="shortcut icon" href="/Public/Images/title1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/Public/Css/odev-7.css">
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="/Public/Html/main.html">Anasayfa</a>
+        </li>
+        <li><a href="/Public/Html/odevler.html">Ödevler</a>
+        </li>
+        <div class="search-main">
+            <input type="text" class="tbox-search">
+            <a class="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </ul>
+    <p><strong>Aldıkları puanlar:</strong></p>
+    <p><label for="bulent">Bülent:</label>
+    <meter id="bulent" min="0" low="40" high="90" max="100" value="55"></meter><span id="not1">55</span><button onclick="aztikla('bulent','not1');">-</button><button onclick="coktikla('bulent','not1');">+</button></p>
+    <p>Renk seçin: <input type="color" name="renk1" id="renk1" onchange="renkDegistir('renk1', 'bulent')"></p>
+    <hr>
+    <p><label for="umit">Ümit:</label>
+    <meter id="umit" min="0" low="40" high="90" max="100" value="100"></meter><span id="not2">100</span><button onclick="aztikla('umit','not2');">-</button><button onclick="coktikla('umit','not2');">+</button></p>
+    <p>Renk seçin: <input type="color" name="renk2" id="renk2" onchange="renkDegistir('renk2', 'umit')"></p>
+    <hr>
+    <p><label for="fatih">Fatih:</label>
+    <meter id="fatih" min="0" low="40" high="90" max="100" value="70"></meter><span id="not3">70</span><button onclick="aztikla('fatih','not3');">-</button><button onclick="coktikla('fatih','not3');">+</button></p>
+    <p>Renk seçin: <input type="color" name="renk3" id="renk3" onchange="renkDegistir('renk3', 'fatih')"></p>
+    <hr>
+    <p><label for="selcuk">Selçuk:</label>
+    <meter id="selcuk" min="0" low="40" high="90" max="100" value="90"></meter><span id="not4">90</span><button onclick="aztikla('selcuk','not4');">-</button><button onclick="coktikla('selcuk','not4');">+</button></p>
+    <p>Renk seçin: <input type="color" name="renk4" id="renk4" onchange="renkDegistir('renk4', 'selcuk')"></p>
+    <hr>
+    <script src="/Public/Js/odev-7.js"></script>
+</body>
+</html>
